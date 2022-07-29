@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LoyaltyPointsSystemV2/1.0.0": {
+        "dependencies": {
+          "LPSApplayer": "1.0.0",
+          "LPSDataLayer": "1.0.0",
+          "LPSenum": "1.0.0"
+        },
+        "runtime": {
+          "LoyaltyPointsSystemV2.dll": {}
+        }
+      },
+      "LPSApplayer/1.0.0": {
+        "runtime": {
+          "LPSApplayer.dll": {}
+        }
+      },
+      "LPSDataLayer/1.0.0": {
+        "dependencies": {
+          "LPSApplayer": "1.0.0"
+        },
+        "runtime": {
+          "LPSDataLayer.dll": {}
+        }
+      },
+      "LPSenum/1.0.0": {
+        "runtime": {
+          "LPSenum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoyaltyPointsSystemV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LPSApplayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LPSDataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LPSenum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
